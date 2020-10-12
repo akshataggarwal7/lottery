@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shotcut icon" type="img/png" href="img/lotterylogo.svg">
+    <link rel="stylesheet" type="text/css" href="css/tyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Indian Lottery</title>
+    <script>
+      function random()
+        {
+            document.getElementById("b").innerHTML=Math.floor(Math.random()*10)+1;
+        }
+        
+        function myFunction() { 
+            var x =  
+                document.getElementById("myText").value; 
+            if(x==7)
+                {
+                    document.getElementById( 
+              "demo").innerHTML = "Congratulations!! <br>You are the winner!"; 
+                    document.getElementById('loadingImage').style.visibility="visible";
+                }
+            else{
+                document.getElementById( 
+              "demo").innerHTML = "Better Luck Next Time :)"; 
+            }
+        } 
+      </script>
+    
+  </head>
+  <body>
+     <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+        <a class="navbar-brand display-1" href="#"><img src="img/lotto-india-logo.png" class="heading">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <div class=" navbar-collapse" >
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" id="one" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="two" href="#">Contact Us</a>
+                </li>
+                
+                <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                    About
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Winning Numbers</a>
+                    <a class="dropdown-item" href="#">Past Winners</a>
+                    <a class="dropdown-item" href="#">Queries</a>
+                    <div class="dropdown-divider"></div>
+                </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Alert!</strong> Due to corona virus all the casinos are closed right now. You are requested to play online. STAY SAFE!!
+</div>
+   <div class="container" id="photo">
+    <div class="container-fluid">
+  <div id="slides" class="carousel slide justify-content-center" data-ride="carousel">
+      <ul class="carousel-indicators">
+          <li data-target="#slides" data-slide-to="0" class="active"></li>
+          <li data-target="#slides" data-slide-to="1"></li>
+          <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner ">
+          <div class="carousel-item active">
+              <img src="img/casino.jpg">
+              <div class="carousel-caption">
+                 <button type="button" class="btn btn-outline-light btn-lg" style="color: white; background-color: black">PLAY</button>
+                  
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="img/poker.jpg">
+              <div class="carousel-caption">
+                 <button type="button" class="btn btn-outline-light btn-lg" style="color: white; background-color: black">PLAY</button>
+          </div>  
+          </div>
+          <div class="carousel-item">
+              <img src="img/money.jpg">
+              <div class="carousel-caption">
+                 <button type="button" class="btn btn-outline-light btn-lg" style="color: white; background-color: black">PLAY</button>
+          </div>  
+          </div>
+          </div>
+      </div>
+          </div>
+         </div>
+           <div class="container" id="hell" style="background-image: url(img/b3.jpg)">      
+    <div id="middle-area">
+            <div class="Box">
+      <div class="ContentBox">
+         <p class="Heading">ROUND 1<p>
+         <hr/>
+         <p class="Paragraph">Enter your details.</p>
+         <a href="#first" class="Clickhere">Click Here!</a>
+      </div>
+        </div>
+        <div class="arrow">
+            <img src="img/arrow2.jpg">
+        </div>
+     <div class="Box">
+        <div class="ContentBox">
+         <p class="Heading">ROUND 2<p>
+         <hr/>
+         <p class="Paragraph">Find your Number.</p>
+         <a href="#second" class="Clickhere">Click Here!</a>
+      </div>
+     </div>
+     <div class="arrow">
+            <img src="img/arrow2.jpg">
+        </div>
+     <div class="Box">
+        <div class="ContentBox">
+         <p class="Heading">ROUND 3</p>
+         <hr>
+         <p class="Paragraph">Wait for the winner!</p>
+         <a href="#three" class="Clickhere">Click Here!</a>
+        </div>    
+                </div>
+                </div>
+           <div class="detailbox" id="first">
+              <div class="details">
+               <h1>Enter your details</h1>
+               <br>
+               <p>Name: <input class="detailinput"  type="text"></p>
+               <p>Age: <input class="detailinput"  type="text"></p>
+               <p>Gender: <input  class="detailinput" type="text"></p>
+               <p>Bidding Amount: <input class="detailinput" type="text"></p>
+               <button type="button">Submit!</button>
+           </div>
+           </div>
+           <div class="biddingbox" id="second">
+              <div class="enter">
+               <h1>Let's Begin!!</h1>
+               <br>
+               <p>Click the following button once for a random number :- </p>
+               <button id="a" type="button" onclick="random();">Click Me</button>
+               <h2 id="b">  </h2>
+           </div>
+           </div>
+           <form class="winningbox" id="three">
+               <h1>
+                   Check Out The Winners!!
+               </h1>
+               <br>
+               <p>Enter your number : </p>
+               <input type="text"
+           id="myText">
+  
+    <button type="button" 
+            onclick="myFunction()"> 
+      Check! 
+  </button> 
+  <br>
+  
+  <img id="loadingImage" src="img/winner.png" /> 
+  
+    <p id="demo"></p>
+               </form>
+      </div>
+      </div>
+<footer class="footer-base">
+
+			<div class="footer-left">
+
+				<img src="img/lotterylogo.svg">
+
+				<p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+				
+					<a href="#">Winners</a>
+				
+					<a href="#">About</a>
+					
+					<a href="#">Contact Us</a>
+				</p>
+
+				<p class="footer-company-name">LottoIndia © 2020</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Hotel Park Avenue</span> Main Street, Las Vegas</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+911 986XXXXXXX</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@LottoIndia.com">support@LottoIndia.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+
+			</div>
+
+		</footer>
+   
+
+  
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
